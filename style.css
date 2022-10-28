@@ -127,11 +127,11 @@ font-size: 3rem;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  /* bottom: 0; */
  /* background-color: aqua; */
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 180px;
   display: flex;
   justify-content: center;
   align-items: center;

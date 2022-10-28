@@ -17,6 +17,7 @@ introInputBtn.addEventListener("click", (e) => {
   e.preventDefault();
   if (introInput.value != "") {
     inputPage.classList.add("active");
+    document.querySelector('footer').style.marginTop="50px";
     introPage.style.display = "none";
     optionCount = introInput.value;
     for (let i = 0; i < optionCount; i++) {
@@ -45,6 +46,7 @@ decisionBtn.addEventListener('click',()=>{
         introPage.style.display = "none";
         inputPage.classList.remove('active');
         outputPage.classList.add('active');
+        document.querySelector('footer').style.marginTop="200px";
         let resultNum = Math.floor(Math.random()*optionCount);
         let result = choiceArr[resultNum];
         if(result!=""){
