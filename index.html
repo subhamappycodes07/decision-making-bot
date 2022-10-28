@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desicion-Making-app</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="body">
+          <h1>Choice Bot</h1>
+          <p>Let me decide for you.</p>
+        </div>
+        <div class="image">
+          <img class="w-full" src="imgs/bot.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="intro-page">
+        <div class="main-text">How many options do you have?</div>
+        <form class="form-body">
+          <input type="number" placeholder="Number of choices"/>
+          <button class="intro-form-btn">Next</button>
+        <div class="alert-field">
+          <p>kindly choose minimum one choice</p>
+          <span><img src="imgs/cross.png" alt=""></span>
+        </div>
+        </form>
+      </section>
+      <section class="input-page">
+        <div class="main-text">Enter your options below.</div>
+        <div class="input-body">
+          <form class="form-body">
+            <!-- <input type="text" placeholder="Enter choice" /> -->
+          </form>
+          <button class="input-form-btn">Make a decision</button>
+        </div> 
+      </section>
+      <section class="output-page">
+        <div class="main-text">If I were you, I would choose</div>
+        <div class="output-body">
+            <h1>3</h1>
+            <button class="output-form-btn">Make another decision</button>
+        </div>
+        
+      </section>
+    </main>
+    <footer>
+      <h4>© 2022 | Subham Haldar</h4>
+    </footer>
+  </body>
+</html>
